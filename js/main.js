@@ -18,7 +18,6 @@ $(document).ready(function () {
     
         var text = { 'frames' : [
 		{'name':'Khung demo CLB S&D', 'src' :'uploads/favicon.png'}, 
-		{'name':'Mùa Hè Xanh NTU','src' :'uploads/frame0.png'}, 
 	    ]};
 
 
