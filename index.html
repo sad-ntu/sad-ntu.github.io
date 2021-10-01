@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Kênh âm nhạc</title>
+    <link rel="icon" type="image/png" href="iconms.png" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="amnhac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body style="background-image: url(background.jpg);"> 
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <nav class=" border border-bottom-1 navbar navbar-expand-md bg-light navbar-light col-md-11 col-sm-12 mx-auto">
+      
+        
+        <div class="  collapse navbar-collapse " >
+          
+          <ul class="navbar-nav">
+              <li class="nav-item btn-light">
+                 <a class="nav-link active" data-toggle="collapse" href="#kenhamnhac" title="Kênh âm nhạc" style="font-family: 'Poppins', sans-serif;"><img src="iconms.png" alt="logo" style="width:30px;">Kênh âm nhạc</a>
+             </li>
+              </ul></div>
+              <div id="myCarousel" class="carousel slide  col-md-6 col-sm-12 mx-auto" data-ride="carousel" style="margin: 0px;padding: 0px; ">
+
+                <!-- slide -->
+                <ul class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ul>
+          
+                <!-- chay slide -->
+                <div class="carousel-inner" style="margin: 0px;padding: 0px;">
+                  <div class="carousel-item active row" style="margin: 0px;padding: 0px;">
+                    <img src="slide1.jpg" width="100%" height="150">
+                  </div>
+                  <div class="carousel-item  row" style="margin: 0px;padding: 0px;">
+                    <img src="slide4.jpg" width="100%" height="150">
+                  </div>
+                  <div class="carousel-item  row" style="margin: 0px;padding: 0px;">
+                   <img src="slide3.jpg" width="100%" height="150">
+                  </div>
+                  <div class="carousel-item  row" style="margin: 0px;padding: 0px;">
+                    <img src="slide2.jpg" width="100%" height="150">
+                   </div>
+                </div>
+                <!-- phim dieu khien slide -->
+                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+            
+      
+      
+      
+        <div class="collapse navbar-collapse float-right justify-content-end" id="menutk">
+        <form class="form-inline my-3 my-md-0">
+            <div class="input-group ">
+                <input type="text" class="form-control"placeholder="nhập từ khóa"/>
+                <div class="input-group-append">
+                    <button class="btn btn-success bg-primary " type="submit" value="nhap tim kiem" >Tìm kiếm</button>
+                </div>
+            </div>
+        </form>
+    </div>
+  </nav>
+
+  <nav class=" border border-bottom-1 navbar navbar-expand-md bg-light navbar-light container-fluid rounded site-warp">
+    
+    <button class="navbar-toggler float-left" type="button" data-toggle="collapse" data-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="  collapse navbar-collapse " id="menu">
+        <ul class="navbar-nav" style="font-family: 'Poppins', sans-serif;">
+            <li class="nav-item btn-light">
+                <a class="nav-link active" data-toggle="collapse" href="#trangchu" title="Trang chủ">Trang chủ</a>
+            </li>
+            
+            <li class="nav-item btn-light">
+                <a class="nav-link" data-toggle="collapse" href="#top100" title="top 100">Top 100</a>
+            </li>
+            <li class="nav-item btn-light">
+                <a class="nav-link" data-toggle="collapse" href="#mv" title="MV">MV</a>
+            </li>
+            <li class="nav-item btn-light">
+                <a class="nav-link" data-toggle="collapse" href="#album" title="Album">Album</a>
+            </li>
+              <li class="nav-item btn-light">
+                <a class="nav-link" data-toggle="collapse" href="#nghesi" title="Nghệ sĩ">Nghệ sĩ</a>
+              </li>
+              <li class="nav-item btn-light">
+                <a class="nav-link" data-toggle="collapse" href="#nhaccanhan" title="Nhạc cá nhân">Nhạc cá nhân</a>
+              </li>
+              
+              <li class="nav-item btn-light">
+              <div class="dropdown">
+                <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+                  Chủ đề
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">EDM</a>
+                  <a class="dropdown-item" href="#">Acoustic</a>
+                  <a class="dropdown-item" href="#">Indie</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              
+            </li>
+            </ul>
+    </div>
+    
+    <div class="navbar-toggler"> 
+      <a class="nav-link active" data-toggle="collapse" href="#kenhamnhac" title="Kênh âm nhạc" style="font-family: 'Poppins', sans-serif;"><img src="iconms.png" alt="logo" style="width:30px;">Kênh âm nhạc</a>
+  </div>
+    
+    
+    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#menutk">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      
+       <div class="collapse navbar-collapse justify-content-end" id="menudn">
+          <ul class="navbar-nav ">
+             <li class="nav-item">
+                  <a class="btn btn-light" data-toggle="modal" href="#dangnhap">
+                      <span class="fas fa-sign-in-alt mr-1"><img src="icondn.png"  style="width:30px;">Đăng nhập</span>
+                  </a>
+                  
+              </li>
+              <li class="nav-item">
+                  <a class="btn btn-light" data-toggle="modal" href="#dangki">
+                      <span class="fas fa-sign-in-alt mr-1">Đăng kí</span>
+                  </a>
+                  
+              </li>
+          </ul>
+      </div>
+      <div class="modal fade" id="dangnhap">
+          <div class="modal-dialog">
+            <div class="modal-content">
+            
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Đăng nhập</h4>
+                <button type="button" class="Đóng" data-dismiss="modal">&times;</button>
+              </div>
+              
+              <!-- Modal body -->
+              <div class="modal-body">
+                <fieldset action="/action_page.php" class="was-validated" novalidate id="dangnhap">
+                  <div class="form-group">
+                    <label for="uname">Tên đăng nhập:</label>
+                    <input type="text" class="form-control" id="uname" placeholder="nhập tên đăng nhập" name="uname" required>
+                    <div class="valid-feedback">Hợp lệ.</div>
+                    <div class="invalid-feedback">Tên đăng nhập không hợp lệ.</div>
+                  </div>
+                  <div class="form-group">
+                    <label for="pwd">Mật khẩu:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="nhập mật khẩu" name="pswd" required>
+                    <div class="valid-feedback">Hợp lệ.</div>
+                    <div class="invalid-feedback">Mật khẩu không hợp lệ.</div>
+                  </div>
+                  <div class="form-group form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="remember" required> Tôi đồng ý các điều khoản.
+                      
+                      <div class="invalid-feedback">Kiểm tra lựa chọn để tiếp tục.</div>
+                    </label>
+                  </div>
+                  <button onclick="myFunction()" class="btn btn-light bg-primary float-right action" style="color: beige;">Đăng nhập</button>
+                  <hr style="width: 80%;">
+                  <br>
+                  <a href="#chinhtri1" class="nav-link btn-light " data-toggle="collapse"><div class="media">
+                    <img src="icondn.png" class="align-self-center mr-3" style="width:100px" id="anh">
+                    <div class="media-body" style="padding: 15px;">
+                      <h2 sstyle="font-family: 'Open Sans Condensed', sans-serif;font-family: 'Poppins', sans-serif; text-align: center;" id="demo"></h2>
+                      
+                    </div>
+                  </div>
+                </a>
+                </fieldset>
+              </div></div></div></div></nav>
+                <script>
+                    function myFunction() {
+                      var x = document.getElementById("uname").value;
+                      var y = document.getElementById("pwd").value;
+                      
+                      if (x=="abc"&y=="123") {
+                        document.getElementById("demo").innerHTML = "chao ban abc";
+                        document.getElementById("anh").src= "anhdaidien.jpg";
+                      } else {
+                        document.getElementById("demo").innerHTML = "Sai tên đăng nhập hoặc mật khẩu";
+                      } 
+                    } z.src=Image
+                    </script>
+                    <div class="modal fade" id="dangki">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Đăng kí</h4>
+                        <button type="button" class="Đóng" data-dismiss="modal">&times;</button>
+                      </div>
+                      
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <fieldset action="/action_page.php" class="was-validated" novalidate id="dangki">
+                          <div class="form-group">
+                            <label for="uname">Tên đăng kí:</label>
+                            <input type="text" class="form-control" id="uname" placeholder="nhập tên đăng kí" name="uname" required>
+                            <div class="valid-feedback">Hợp lệ.</div>
+                            <div class="invalid-feedback">Tên đăng nhập không hợp lệ.</div>
+                          </div>
+                          <div class="form-group">
+                            <label for="pwd">Mật khẩu:</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="nhập mật khẩu" name="pswd" required>
+                            <div class="valid-feedback">Hợp lệ.</div>
+                            <div class="invalid-feedback">Mật khẩu không hợp lệ.</div>
+                          </div>
+                          <div class="form-group form-check">
+                            <label class="form-check-label">
+                              <input class="form-check-input" type="checkbox" name="remember" required> Tôi đồng ý các điều khoản.
+                              
+                              <div class="invalid-feedback">Kiểm tra lựa chọn để tiếp tục.</div>
+                            </label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Đăng kí</button>
+                        </fieldset>
+                      </div></div></div></div>
+      
+
+        <div class="col-md-11 col-12 mx-auto row " style="margin: 0px;padding: 0px;">
+          <div class="col-md-4  col-10 card order-md-1 order-3 mx-auto" style="margin: 0px;padding: 0px;">
+            <a href="#casi1" class="nav-link btn-light" data-toggle="collapse">
+              <div class="media container-fluid">
+                <img src="casi1.jpg" class="align-self-center mr-3" style="width:100px">
+                <div class="media-body ">
+                  <h6 style="color: black;">Nàng thơ</h6>
+                  <span class="time" style="color: black;">Nguyễn Hoàng Dũng</span>
+                </div>
+              </div>
+            </a>
+            <hr>
+            <div  style="padding: 15px;">
+              <p style="font-family: 'Open Sans Condensed', sans-serif;">Em, ngày em đánh rơi nụ cười vào anh. Có nghĩ sau này em sẽ chờ. Và vô tư cho đi hết những ngây thơ.
+                 Anh, một người hát mãi những điều mong manh</p>
+            </div>
+          </div> 
+          <div class="col-md-4 col-6 card order-md-2 order-1" style="margin: 0px;padding: 0px;">
+            <a href="#casi2" class="nav-link btn-light" data-toggle="collapse">
+              <div class="media container-fluid">
+                <img src="casi2.jpg" class="align-self-center mr-3" style="width:100px">
+                <div class="media-body ">
+                  <h6 style="color: black;">Một nhà</h6>
+                  <span class="time" style="color: black;">Dalab</span>
+                </div>
+              </div>
+            </a>
+            <hr>
+            <div  style="padding: 15px;">
+              <p style="font-family: 'Open Sans Condensed', sans-serif;">Khi hai ta về một nhà
+                Khép đôi mi chung một giường
+                Đôi khi mơ cùng một giấc
+                Thức giấc chung một giờ</p>
+            </div>
+          </div> 
+          <div class="col-md-4 col-6 mx-auto card order-md-3 order-2" style="margin: 0px;padding: 0px;">
+            <a href="#casi3" class="nav-link btn-light" data-toggle="collapse">
+              <div class="media ">
+                <img src="casi3.jpg" class="align-self-center mr-3" style="width:100px">
+                <div class="media-body ">
+                  <h6 style="color: black;">Cơn mơ băng giá</h6>
+                  <span class="time" style="color: black;">Nguyễn Hoàng Dũng</span>
+                </div>
+              </div>
+            </a>
+            <hr>
+            <div  style="padding: 15px;">
+              <p style="font-family: 'Open Sans Condensed', sans-serif;">Nhìn từng giợt mưa nhẹ rơi ngoài hiên, nơi xa em có hay không.
+                Chân trời kia mờ trong màn sương chờ đợi em sẽ quay về.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+<nav class=" border border-bottom-1 navbar navbar-expand-md bg-light navbar-light container-fluid">
+  
+    
+  <div class="row col-12" style="padding: 0px; margin: 0px;">
+    
+    <button class="navbar-toggler float-left " type="button" data-toggle="collapse" data-target="#menuphu">
+    <span class="navbar-toggler-icon"></span></button>
+  
+      <div class="  collapse navbar-collapse col-4 mr-auto order-md-1 order-3" style="padding: 0px; margin: 0px;" id="menuphu">
+          <ul class="navbar-nav" style="font-family: 'Poppins', sans-serif;">
+              <li class="nav-item btn-light">
+                  <a class="nav-link active" data-toggle="collapse" href="#hotro" title="Hổ trợ">Hổ trợ</a>
+              </li>
+              
+              <li class="nav-item btn-light">
+                  <a class="nav-link" data-toggle="collapse" href="#ketnoi" title="Kết nối">Kết nối</a>
+              </li>
+              <li class="nav-item btn-light">
+                  <a class="nav-link" data-toggle="collapse" href="#timhieu" title="Tìm hiểu">Tìm hiểu</a>
+              </li>
+            </ul>
+      </div>
+      <div class="col-8  order-md-2 order-2 float-right ml-auto " style="padding: 0px; margin: 0px;">
+            <i class="float-right"  style="text-align: right; float-right">Địa chỉ liên lạc: 02 Nguyễn Đình Chiểu - Sdt: 0866048824 - Bản quyền: #</i>
+    </div>
+</div>
+    </nav>
+    <div class="row col-12" style="padding: 0px; margin: 0px;">
+    
+      <button class="navbar-toggler float-left " type="button" data-toggle="collapse" data-target="#menuphuu">
+      <span class="navbar-toggler-icon"></span></button>
+    
+        <div class="  collapse navbar-collapse col-4 mr-auto order-md-1 order-3" style="padding: 0px; margin: 0px;" id="menuphuu">
+            <ul class="navbar-nav" style="font-family: 'Poppins', sans-serif;">
+                <li class="nav-item btn-light">
+                    <a class="nav-link active" data-toggle="collapse" href="#hotro" title="Hổ trợ">Hổ trợ</a>
+                </li>
+                
+                <li class="nav-item btn-light">
+                    <a class="nav-link" data-toggle="collapse" href="#ketnoi" title="Kết nối">Kết nối</a>
+                </li>
+                <li class="nav-item btn-light">
+                    <a class="nav-link" data-toggle="collapse" href="#timhieu" title="Tìm hiểu">Tìm hiểu</a>
+                </li>
+              </ul>
+        </div>
+        <div class="col-8  order-md-2 order-2 float-right ml-auto " style="padding: 0px; margin: 0px;">
+              <i class="float-right"  style="text-align: right; float-right">Địa chỉ liên lạc: 02 Nguyễn Đình Chiểu - Sdt: 0866048824 - Bản quyền: #</i>
+      </div>
+  </div>
+  </body>
+</html>
