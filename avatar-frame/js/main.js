@@ -17,7 +17,7 @@ $(document).ready(function () {
     var output_name = rand_string(5)+'YTC-avatar.png';
     
         var text = { 'frames' : [
-		{'name':'Khung demo CLB S&D', 'src' :'uploads/favicon.png'}, 
+		{'name':'Khung demo CLB S&D', 'src' :'uploads/1234.png'}, 
 	    ]};
 
 
