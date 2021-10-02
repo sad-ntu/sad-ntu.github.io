@@ -14,7 +14,7 @@ $(document).ready(function () {
     var scaleX = 0.5;
     var scaleY = 0.5;
     var output_size = 1024; // px
-    var output_name = rand_string(5)+'YTC-avatar.png';
+    var output_name = rand_string(5)+'SaD-avatar.png';
     
         var text = { 'frames' : [
 		{'name':'Khung demo CLB S&D', 'src' :'uploads/1234.png'}, 
