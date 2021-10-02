@@ -17,7 +17,7 @@ $(document).ready(function () {
     var output_name = rand_string(5)+'SaD-avatar.png';
     
         var text = { 'frames' : [
-		{'name':'Khung demo CLB S&D', 'src' :'uploads/1235.png'}, 
+		{'name':'Khung chao don k63 CLB S&D', 'src' :'uploads/1235.png'}, 
 	    ]};
 
 
