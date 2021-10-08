@@ -141,7 +141,7 @@ a:hover {
 
 .navbar-collapse input[type="text"] {
   border: 1px solid #ced4da;
-  color: #333;
+  color: #fff;
   padding: 1.5625rem 0.625rem;
 }
 
@@ -353,6 +353,7 @@ form button.btn-primary:hover {
 }
 .button-rotate-left, .button-rotate-right, .button-zoom-in, .button-zoom-out, .button-flip-horizon, .button-flip-vertical {
   width: 49%;
+  color: #fff;
   background-color: transparent;
 }
 
@@ -389,8 +390,8 @@ form button.btn-primary:hover {
 .button:hover,
 .button:focus,
 .button.focus {
-  color: #333;
-  text-decoration: none;
+  color: #9c9999;
+  text-decoration: none; 
 }
 .button:active,
 .button.active {
@@ -413,25 +414,25 @@ fieldset[disabled] a.button {
   pointer-events: none;
 }
 .button-default {
-  color: #333;
+  color: #fff;
   background-color: #fff;
   border-color: #ccc;
 }
 .button-default:focus,
 .button-default.focus {
-  color: #333;
+  color: #fff;
   background-color: #e6e6e6;
   border-color: #8c8c8c;
 }
 .button-default:hover {
-  color: #333;
+  color: #fff;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
 .button-default:active,
 .button-default.active,
 .open > .dropdown-toggle.button-default {
-  color: #333;
+  color: #fff;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
@@ -444,7 +445,7 @@ fieldset[disabled] a.button {
 .button-default:active.focus,
 .button-default.active.focus,
 .open > .dropdown-toggle.button-default.focus {
-  color: #333;
+  color: #fff;
   background-color: #d4d4d4;
   border-color: #8c8c8c;
 }
@@ -467,7 +468,7 @@ fieldset[disabled] .button-default.focus {
 }
 .button-default .badge {
   color: #fff;
-  background-color: #333;
+  background-color: #fff;
 }
 .button-primary {
   color: #fff;
@@ -791,7 +792,7 @@ fieldset[disabled] .button-link:focus {
 .button-group-lg > .button {
   padding: 10px 16px;
   font-size: 18px;
-  line-height: 1.3333333;
+  line-height: 1.ffffff3;
   border-radius: 6px;
 }
 .button-sm,
@@ -822,7 +823,7 @@ input[type="button"].button-block {
 }
 
 .form-control{
-  color: #000000;
+  color: #383737;
 }
 
 .hidden {
@@ -1531,4 +1532,20 @@ span {
 
 .foot-note a.fh5-link:hover {
   color: #156a91;
+}
+.img{
+  height: 50px;
+  width: 50px;
+}
+.black{
+  background-color: #383737;
+}
+.color-tp{
+  color: #9c9999;
+}
+.pad-1{
+  padding: 50px;
+}
+.top-1{
+  margin-top: 10px;
 }
