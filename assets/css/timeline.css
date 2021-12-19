@@ -1,10 +1,8 @@
 .bd{
-    color: #000000;
-    background: #ffffff;
-}
-.color-timeline{
     color: #000000 !important;
+    background: #ffffff !important;
 }
+
 .timeline {
     position: relative;
     
@@ -40,7 +38,7 @@
     margin-right: 20px;
     color: #ffffff;
     font-size: 1.7rem;
-    font-family: "Cambria", sans-serif;
+    font-family: "Cambria", sans-serif !important;
 }
 .timeline-row .timeline-time small {
     display: block;
