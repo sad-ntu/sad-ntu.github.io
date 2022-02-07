@@ -138,7 +138,8 @@
         var output_name = rand_string(5)+'SaD-avatar.png';
         
             var text = { 'frames' : [
-            {'name':'Khung chào đón K63 CLB S&D', 'src' :'images/1235.png'}, 
+                {'name':'Khung sinh nhật CLB SaD', 'src' :'images/sinhnhat.png'},
+            {'name':'Khung chào đón k63 CLB SaD', 'src' :'images/1235.png'}, 
             ]};
     
     
