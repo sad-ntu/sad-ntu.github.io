@@ -567,7 +567,7 @@ function cuchot() {
 
 function tranhbien() {
     var reloadTime = new Date();
-    reloadTime.setSeconds(reloadTime.getSeconds() + 150);
+    reloadTime.setSeconds(reloadTime.getSeconds() + 181);
     reloadTime.setMilliseconds(0);
     var reloadTimeString = reloadTime.toISOString()
 
