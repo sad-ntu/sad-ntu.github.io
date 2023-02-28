@@ -1,0 +1,632 @@
+.countdownCubeContainer * {
+    box-sizing: content-box;
+}
+
+.countdownCubeContainer {
+    display: inline-block;
+    position: relative;
+    margin: 1px 1px 1px 1px;
+}
+
+.countdownCubeCube {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    -o-transition: -o-transform 0.2s;
+    transition: transform 0.2s;
+}
+
+.countdownCubeCube figure {
+    margin: 0;
+    display: block;
+    position: absolute;
+    border: 2px solid black;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.countdownCubeCube.panels-backface-invisible figure,
+.countdownCubeCube figure {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.countdownCube_ID_0 .countdownCubeCube.show-front {
+    -webkit-transform: translateZ( -75px);
+    -moz-transform: translateZ( -75px);
+    -o-transform: translateZ( -75px);
+    transform: translateZ( -75px);
+}
+
+.countdownCube_ID_0 .countdownCubeCube.show-back {
+    -webkit-transform: translateZ( -75px) rotateX( -180deg);
+    -moz-transform: translateZ( -75px) rotateX( -180deg);
+    -o-transform: translateZ( -75px) rotateX( -180deg);
+    transform: translateZ( -75px) rotateX( -180deg);
+}
+
+.countdownCube_ID_0 .countdownCubeCube.show-right {
+    -webkit-transform: translateZ( -75px) rotateY( -90deg);
+    -moz-transform: translateZ( -75px) rotateY( -90deg);
+    -o-transform: translateZ( -75px) rotateY( -90deg);
+    transform: translateZ( -75px) rotateY( -90deg);
+}
+
+.countdownCube_ID_0 .countdownCubeCube.show-left {
+    -webkit-transform: translateZ( -75px) rotateY( 90deg);
+    -moz-transform: translateZ( -75px) rotateY( 90deg);
+    -o-transform: translateZ( -75px) rotateY( 90deg);
+    transform: translateZ( -75px) rotateY( 90deg);
+}
+
+.countdownCube_ID_0 .countdownCubeCube.show-top {
+    -webkit-transform: translateZ( -75px) rotateX( -90deg);
+    -moz-transform: translateZ( -75px) rotateX( -90deg);
+    -o-transform: translateZ( -75px) rotateX( -90deg);
+    transform: translateZ( -75px) rotateX( -90deg);
+}
+
+.countdownCube_ID_0 .countdownCubeCube.show-bottom {
+    -webkit-transform: translateZ( -75px) rotateX( 90deg);
+    -moz-transform: translateZ( -75px) rotateX( 90deg);
+    -o-transform: translateZ( -75px) rotateX( 90deg);
+    transform: translateZ( -75px) rotateX( 90deg);
+}
+
+.countdownCube_ID_1 .countdownCubeCube.show-front {
+    -webkit-transform: translateZ( -75px);
+    -moz-transform: translateZ( -75px);
+    -o-transform: translateZ( -75px);
+    transform: translateZ( -75px);
+}
+
+.countdownCube_ID_1 .countdownCubeCube.show-back {
+    -webkit-transform: translateZ( -75px) rotateX( -180deg);
+    -moz-transform: translateZ( -75px) rotateX( -180deg);
+    -o-transform: translateZ( -75px) rotateX( -180deg);
+    transform: translateZ( -75px) rotateX( -180deg);
+}
+
+.countdownCube_ID_1 .countdownCubeCube.show-right {
+    -webkit-transform: translateZ( -75px) rotateY( -90deg);
+    -moz-transform: translateZ( -75px) rotateY( -90deg);
+    -o-transform: translateZ( -75px) rotateY( -90deg);
+    transform: translateZ( -75px) rotateY( -90deg);
+}
+
+.countdownCube_ID_1 .countdownCubeCube.show-left {
+    -webkit-transform: translateZ( -75px) rotateY( 90deg);
+    -moz-transform: translateZ( -75px) rotateY( 90deg);
+    -o-transform: translateZ( -75px) rotateY( 90deg);
+    transform: translateZ( -75px) rotateY( 90deg);
+}
+
+.countdownCube_ID_1 .countdownCubeCube.show-top {
+    -webkit-transform: translateZ( -75px) rotateX( -90deg);
+    -moz-transform: translateZ( -75px) rotateX( -90deg);
+    -o-transform: translateZ( -75px) rotateX( -90deg);
+    transform: translateZ( -75px) rotateX( -90deg);
+}
+
+.countdownCube_ID_1 .countdownCubeCube.show-bottom {
+    -webkit-transform: translateZ( -75px) rotateX( 90deg);
+    -moz-transform: translateZ( -75px) rotateX( 90deg);
+    -o-transform: translateZ( -75px) rotateX( 90deg);
+    transform: translateZ( -75px) rotateX( 90deg);
+}
+
+.countdownCube_ID_2 .countdownCubeCube.show-front {
+    -webkit-transform: translateZ( -75px);
+    -moz-transform: translateZ( -75px);
+    -o-transform: translateZ( -75px);
+    transform: translateZ( -75px);
+}
+
+.countdownCube_ID_2 .countdownCubeCube.show-back {
+    -webkit-transform: translateZ( -75px) rotateX( -180deg);
+    -moz-transform: translateZ( -75px) rotateX( -180deg);
+    -o-transform: translateZ( -75px) rotateX( -180deg);
+    transform: translateZ( -75px) rotateX( -180deg);
+}
+
+.countdownCube_ID_2 .countdownCubeCube.show-right {
+    -webkit-transform: translateZ( -75px) rotateY( -90deg);
+    -moz-transform: translateZ( -75px) rotateY( -90deg);
+    -o-transform: translateZ( -75px) rotateY( -90deg);
+    transform: translateZ( -75px) rotateY( -90deg);
+}
+
+.countdownCube_ID_2 .countdownCubeCube.show-left {
+    -webkit-transform: translateZ( -75px) rotateY( 90deg);
+    -moz-transform: translateZ( -75px) rotateY( 90deg);
+    -o-transform: translateZ( -75px) rotateY( 90deg);
+    transform: translateZ( -75px) rotateY( 90deg);
+}
+
+.countdownCube_ID_2 .countdownCubeCube.show-top {
+    -webkit-transform: translateZ( -75px) rotateX( -90deg);
+    -moz-transform: translateZ( -75px) rotateX( -90deg);
+    -o-transform: translateZ( -75px) rotateX( -90deg);
+    transform: translateZ( -75px) rotateX( -90deg);
+}
+
+.countdownCube_ID_2 .countdownCubeCube.show-bottom {
+    -webkit-transform: translateZ( -75px) rotateX( 90deg);
+    -moz-transform: translateZ( -75px) rotateX( 90deg);
+    -o-transform: translateZ( -75px) rotateX( 90deg);
+    transform: translateZ( -75px) rotateX( 90deg);
+}
+
+.countdownCube_ID_3 .countdownCubeCube.show-front {
+    -webkit-transform: translateZ( -75px);
+    -moz-transform: translateZ( -75px);
+    -o-transform: translateZ( -75px);
+    transform: translateZ( -75px);
+}
+
+.countdownCube_ID_3 .countdownCubeCube.show-back {
+    -webkit-transform: translateZ( -75px) rotateX( -180deg);
+    -moz-transform: translateZ( -75px) rotateX( -180deg);
+    -o-transform: translateZ( -75px) rotateX( -180deg);
+    transform: translateZ( -75px) rotateX( -180deg);
+}
+
+.countdownCube_ID_3 .countdownCubeCube.show-right {
+    -webkit-transform: translateZ( -75px) rotateY( -90deg);
+    -moz-transform: translateZ( -75px) rotateY( -90deg);
+    -o-transform: translateZ( -75px) rotateY( -90deg);
+    transform: translateZ( -75px) rotateY( -90deg);
+}
+
+.countdownCube_ID_3 .countdownCubeCube.show-left {
+    -webkit-transform: translateZ( -75px) rotateY( 90deg);
+    -moz-transform: translateZ( -75px) rotateY( 90deg);
+    -o-transform: translateZ( -75px) rotateY( 90deg);
+    transform: translateZ( -75px) rotateY( 90deg);
+}
+
+.countdownCube_ID_3 .countdownCubeCube.show-top {
+    -webkit-transform: translateZ( -75px) rotateX( -90deg);
+    -moz-transform: translateZ( -75px) rotateX( -90deg);
+    -o-transform: translateZ( -75px) rotateX( -90deg);
+    transform: translateZ( -75px) rotateX( -90deg);
+}
+
+.countdownCube_ID_3 .countdownCubeCube.show-bottom {
+    -webkit-transform: translateZ( -75px) rotateX( 90deg);
+    -moz-transform: translateZ( -75px) rotateX( 90deg);
+    -o-transform: translateZ( -75px) rotateX( 90deg);
+    transform: translateZ( -75px) rotateX( 90deg);
+}
+
+.countdownCube_ID_4 .countdownCubeCube.show-front {
+    -webkit-transform: translateZ( -75px);
+    -moz-transform: translateZ( -75px);
+    -o-transform: translateZ( -75px);
+    transform: translateZ( -75px);
+}
+
+.countdownCube_ID_4 .countdownCubeCube.show-back {
+    -webkit-transform: translateZ( -75px) rotateX( -180deg);
+    -moz-transform: translateZ( -75px) rotateX( -180deg);
+    -o-transform: translateZ( -75px) rotateX( -180deg);
+    transform: translateZ( -75px) rotateX( -180deg);
+}
+
+.countdownCube_ID_4 .countdownCubeCube.show-right {
+    -webkit-transform: translateZ( -75px) rotateY( -90deg);
+    -moz-transform: translateZ( -75px) rotateY( -90deg);
+    -o-transform: translateZ( -75px) rotateY( -90deg);
+    transform: translateZ( -75px) rotateY( -90deg);
+}
+
+.countdownCube_ID_4 .countdownCubeCube.show-left {
+    -webkit-transform: translateZ( -75px) rotateY( 90deg);
+    -moz-transform: translateZ( -75px) rotateY( 90deg);
+    -o-transform: translateZ( -75px) rotateY( 90deg);
+    transform: translateZ( -75px) rotateY( 90deg);
+}
+
+.countdownCube_ID_4 .countdownCubeCube.show-top {
+    -webkit-transform: translateZ( -75px) rotateX( -90deg);
+    -moz-transform: translateZ( -75px) rotateX( -90deg);
+    -o-transform: translateZ( -75px) rotateX( -90deg);
+    transform: translateZ( -75px) rotateX( -90deg);
+}
+
+.countdownCube_ID_4 .countdownCubeCube.show-bottom {
+    -webkit-transform: translateZ( -75px) rotateX( 90deg);
+    -moz-transform: translateZ( -75px) rotateX( 90deg);
+    -o-transform: translateZ( -75px) rotateX( 90deg);
+    transform: translateZ( -75px) rotateX( 90deg);
+}
+
+.countdownCube_ID_5 .countdownCubeCube.show-front {
+    -webkit-transform: translateZ( -75px);
+    -moz-transform: translateZ( -75px);
+    -o-transform: translateZ( -75px);
+    transform: translateZ( -75px);
+}
+
+.countdownCube_ID_5 .countdownCubeCube.show-back {
+    -webkit-transform: translateZ( -75px) rotateX( -180deg);
+    -moz-transform: translateZ( -75px) rotateX( -180deg);
+    -o-transform: translateZ( -75px) rotateX( -180deg);
+    transform: translateZ( -75px) rotateX( -180deg);
+}
+
+.countdownCube_ID_5 .countdownCubeCube.show-right {
+    -webkit-transform: translateZ( -75px) rotateY( -90deg);
+    -moz-transform: translateZ( -75px) rotateY( -90deg);
+    -o-transform: translateZ( -75px) rotateY( -90deg);
+    transform: translateZ( -75px) rotateY( -90deg);
+}
+
+.countdownCube_ID_5 .countdownCubeCube.show-left {
+    -webkit-transform: translateZ( -75px) rotateY( 90deg);
+    -moz-transform: translateZ( -75px) rotateY( 90deg);
+    -o-transform: translateZ( -75px) rotateY( 90deg);
+    transform: translateZ( -75px) rotateY( 90deg);
+}
+
+.countdownCube_ID_5 .countdownCubeCube.show-top {
+    -webkit-transform: translateZ( -75px) rotateX( -90deg);
+    -moz-transform: translateZ( -75px) rotateX( -90deg);
+    -o-transform: translateZ( -75px) rotateX( -90deg);
+    transform: translateZ( -75px) rotateX( -90deg);
+}
+
+.countdownCube_ID_5 .countdownCubeCube.show-bottom {
+    -webkit-transform: translateZ( -75px) rotateX( 90deg);
+    -moz-transform: translateZ( -75px) rotateX( 90deg);
+    -o-transform: translateZ( -75px) rotateX( 90deg);
+    transform: translateZ( -75px) rotateX( 90deg);
+}
+
+.countdownCube_ID_6 .countdownCubeCube.show-front {
+    -webkit-transform: translateZ( -75px);
+    -moz-transform: translateZ( -75px);
+    -o-transform: translateZ( -75px);
+    transform: translateZ( -75px);
+}
+
+.countdownCube_ID_6 .countdownCubeCube.show-back {
+    -webkit-transform: translateZ( -75px) rotateX( -180deg);
+    -moz-transform: translateZ( -75px) rotateX( -180deg);
+    -o-transform: translateZ( -75px) rotateX( -180deg);
+    transform: translateZ( -75px) rotateX( -180deg);
+}
+
+.countdownCube_ID_6 .countdownCubeCube.show-right {
+    -webkit-transform: translateZ( -75px) rotateY( -90deg);
+    -moz-transform: translateZ( -75px) rotateY( -90deg);
+    -o-transform: translateZ( -75px) rotateY( -90deg);
+    transform: translateZ( -75px) rotateY( -90deg);
+}
+
+.countdownCube_ID_6 .countdownCubeCube.show-left {
+    -webkit-transform: translateZ( -75px) rotateY( 90deg);
+    -moz-transform: translateZ( -75px) rotateY( 90deg);
+    -o-transform: translateZ( -75px) rotateY( 90deg);
+    transform: translateZ( -75px) rotateY( 90deg);
+}
+
+.countdownCube_ID_6 .countdownCubeCube.show-top {
+    -webkit-transform: translateZ( -75px) rotateX( -90deg);
+    -moz-transform: translateZ( -75px) rotateX( -90deg);
+    -o-transform: translateZ( -75px) rotateX( -90deg);
+    transform: translateZ( -75px) rotateX( -90deg);
+}
+
+.countdownCube_ID_6 .countdownCubeCube.show-bottom {
+    -webkit-transform: translateZ( -75px) rotateX( 90deg);
+    -moz-transform: translateZ( -75px) rotateX( 90deg);
+    -o-transform: translateZ( -75px) rotateX( 90deg);
+    transform: translateZ( -75px) rotateX( 90deg);
+}
+
+.countdownCube_ID_7 .countdownCubeCube.show-front {
+    -webkit-transform: translateZ( -75px);
+    -moz-transform: translateZ( -75px);
+    -o-transform: translateZ( -75px);
+    transform: translateZ( -75px);
+}
+
+.countdownCube_ID_7 .countdownCubeCube.show-back {
+    -webkit-transform: translateZ( -75px) rotateX( -180deg);
+    -moz-transform: translateZ( -75px) rotateX( -180deg);
+    -o-transform: translateZ( -75px) rotateX( -180deg);
+    transform: translateZ( -75px) rotateX( -180deg);
+}
+
+.countdownCube_ID_7 .countdownCubeCube.show-right {
+    -webkit-transform: translateZ( -75px) rotateY( -90deg);
+    -moz-transform: translateZ( -75px) rotateY( -90deg);
+    -o-transform: translateZ( -75px) rotateY( -90deg);
+    transform: translateZ( -75px) rotateY( -90deg);
+}
+
+.countdownCube_ID_7 .countdownCubeCube.show-left {
+    -webkit-transform: translateZ( -75px) rotateY( 90deg);
+    -moz-transform: translateZ( -75px) rotateY( 90deg);
+    -o-transform: translateZ( -75px) rotateY( 90deg);
+    transform: translateZ( -75px) rotateY( 90deg);
+}
+
+.countdownCube_ID_7 .countdownCubeCube.show-top {
+    -webkit-transform: translateZ( -75px) rotateX( -90deg);
+    -moz-transform: translateZ( -75px) rotateX( -90deg);
+    -o-transform: translateZ( -75px) rotateX( -90deg);
+    transform: translateZ( -75px) rotateX( -90deg);
+}
+
+.countdownCube_ID_7 .countdownCubeCube.show-bottom {
+    -webkit-transform: translateZ( -75px) rotateX( 90deg);
+    -moz-transform: translateZ( -75px) rotateX( 90deg);
+    -o-transform: translateZ( -75px) rotateX( 90deg);
+    transform: translateZ( -75px) rotateX( 90deg);
+}
+
+.countdownCube_ID_8 .countdownCubeCube.show-front {
+    -webkit-transform: translateZ( -75px);
+    -moz-transform: translateZ( -75px);
+    -o-transform: translateZ( -75px);
+    transform: translateZ( -75px);
+}
+
+.countdownCube_ID_8 .countdownCubeCube.show-back {
+    -webkit-transform: translateZ( -75px) rotateX( -180deg);
+    -moz-transform: translateZ( -75px) rotateX( -180deg);
+    -o-transform: translateZ( -75px) rotateX( -180deg);
+    transform: translateZ( -75px) rotateX( -180deg);
+}
+
+.countdownCube_ID_8 .countdownCubeCube.show-right {
+    -webkit-transform: translateZ( -75px) rotateY( -90deg);
+    -moz-transform: translateZ( -75px) rotateY( -90deg);
+    -o-transform: translateZ( -75px) rotateY( -90deg);
+    transform: translateZ( -75px) rotateY( -90deg);
+}
+
+.countdownCube_ID_8 .countdownCubeCube.show-left {
+    -webkit-transform: translateZ( -75px) rotateY( 90deg);
+    -moz-transform: translateZ( -75px) rotateY( 90deg);
+    -o-transform: translateZ( -75px) rotateY( 90deg);
+    transform: translateZ( -75px) rotateY( 90deg);
+}
+
+.countdownCube_ID_8 .countdownCubeCube.show-top {
+    -webkit-transform: translateZ( -75px) rotateX( -90deg);
+    -moz-transform: translateZ( -75px) rotateX( -90deg);
+    -o-transform: translateZ( -75px) rotateX( -90deg);
+    transform: translateZ( -75px) rotateX( -90deg);
+}
+
+.countdownCube_ID_8 .countdownCubeCube.show-bottom {
+    -webkit-transform: translateZ( -75px) rotateX( 90deg);
+    -moz-transform: translateZ( -75px) rotateX( 90deg);
+    -o-transform: translateZ( -75px) rotateX( 90deg);
+    transform: translateZ( -75px) rotateX( 90deg);
+}
+
+.countdownCube_ID_9 .countdownCubeCube.show-front {
+    -webkit-transform: translateZ( -75px);
+    -moz-transform: translateZ( -75px);
+    -o-transform: translateZ( -75px);
+    transform: translateZ( -75px);
+}
+
+.countdownCube_ID_9 .countdownCubeCube.show-back {
+    -webkit-transform: translateZ( -75px) rotateX( -180deg);
+    -moz-transform: translateZ( -75px) rotateX( -180deg);
+    -o-transform: translateZ( -75px) rotateX( -180deg);
+    transform: translateZ( -75px) rotateX( -180deg);
+}
+
+.countdownCube_ID_9 .countdownCubeCube.show-right {
+    -webkit-transform: translateZ( -75px) rotateY( -90deg);
+    -moz-transform: translateZ( -75px) rotateY( -90deg);
+    -o-transform: translateZ( -75px) rotateY( -90deg);
+    transform: translateZ( -75px) rotateY( -90deg);
+}
+
+.countdownCube_ID_9 .countdownCubeCube.show-left {
+    -webkit-transform: translateZ( -75px) rotateY( 90deg);
+    -moz-transform: translateZ( -75px) rotateY( 90deg);
+    -o-transform: translateZ( -75px) rotateY( 90deg);
+    transform: translateZ( -75px) rotateY( 90deg);
+}
+
+.countdownCube_ID_9 .countdownCubeCube.show-top {
+    -webkit-transform: translateZ( -75px) rotateX( -90deg);
+    -moz-transform: translateZ( -75px) rotateX( -90deg);
+    -o-transform: translateZ( -75px) rotateX( -90deg);
+    transform: translateZ( -75px) rotateX( -90deg);
+}
+
+.countdownCube_ID_9 .countdownCubeCube.show-bottom {
+    -webkit-transform: translateZ( -75px) rotateX( 90deg);
+    -moz-transform: translateZ( -75px) rotateX( 90deg);
+    -o-transform: translateZ( -75px) rotateX( 90deg);
+    transform: translateZ( -75px) rotateX( 90deg);
+}
+
+.countdownCube_ID_10 .countdownCubeCube.show-front {
+    -webkit-transform: translateZ( -75px);
+    -moz-transform: translateZ( -75px);
+    -o-transform: translateZ( -75px);
+    transform: translateZ( -75px);
+}
+
+.countdownCube_ID_10 .countdownCubeCube.show-back {
+    -webkit-transform: translateZ( -75px) rotateX( -180deg);
+    -moz-transform: translateZ( -75px) rotateX( -180deg);
+    -o-transform: translateZ( -75px) rotateX( -180deg);
+    transform: translateZ( -75px) rotateX( -180deg);
+}
+
+.countdownCube_ID_10 .countdownCubeCube.show-right {
+    -webkit-transform: translateZ( -75px) rotateY( -90deg);
+    -moz-transform: translateZ( -75px) rotateY( -90deg);
+    -o-transform: translateZ( -75px) rotateY( -90deg);
+    transform: translateZ( -75px) rotateY( -90deg);
+}
+
+.countdownCube_ID_10 .countdownCubeCube.show-left {
+    -webkit-transform: translateZ( -75px) rotateY( 90deg);
+    -moz-transform: translateZ( -75px) rotateY( 90deg);
+    -o-transform: translateZ( -75px) rotateY( 90deg);
+    transform: translateZ( -75px) rotateY( 90deg);
+}
+
+.countdownCube_ID_10 .countdownCubeCube.show-top {
+    -webkit-transform: translateZ( -75px) rotateX( -90deg);
+    -moz-transform: translateZ( -75px) rotateX( -90deg);
+    -o-transform: translateZ( -75px) rotateX( -90deg);
+    transform: translateZ( -75px) rotateX( -90deg);
+}
+
+.countdownCube_ID_10 .countdownCubeCube.show-bottom {
+    -webkit-transform: translateZ( -75px) rotateX( 90deg);
+    -moz-transform: translateZ( -75px) rotateX( 90deg);
+    -o-transform: translateZ( -75px) rotateX( 90deg);
+    transform: translateZ( -75px) rotateX( 90deg);
+}
+
+.countdownCube_ID_11 .countdownCubeCube.show-front {
+    -webkit-transform: translateZ( -75px);
+    -moz-transform: translateZ( -75px);
+    -o-transform: translateZ( -75px);
+    transform: translateZ( -75px);
+}
+
+.countdownCube_ID_11 .countdownCubeCube.show-back {
+    -webkit-transform: translateZ( -75px) rotateX( -180deg);
+    -moz-transform: translateZ( -75px) rotateX( -180deg);
+    -o-transform: translateZ( -75px) rotateX( -180deg);
+    transform: translateZ( -75px) rotateX( -180deg);
+}
+
+.countdownCube_ID_11 .countdownCubeCube.show-right {
+    -webkit-transform: translateZ( -75px) rotateY( -90deg);
+    -moz-transform: translateZ( -75px) rotateY( -90deg);
+    -o-transform: translateZ( -75px) rotateY( -90deg);
+    transform: translateZ( -75px) rotateY( -90deg);
+}
+
+.countdownCube_ID_11 .countdownCubeCube.show-left {
+    -webkit-transform: translateZ( -75px) rotateY( 90deg);
+    -moz-transform: translateZ( -75px) rotateY( 90deg);
+    -o-transform: translateZ( -75px) rotateY( 90deg);
+    transform: translateZ( -75px) rotateY( 90deg);
+}
+
+.countdownCube_ID_11 .countdownCubeCube.show-top {
+    -webkit-transform: translateZ( -75px) rotateX( -90deg);
+    -moz-transform: translateZ( -75px) rotateX( -90deg);
+    -o-transform: translateZ( -75px) rotateX( -90deg);
+    transform: translateZ( -75px) rotateX( -90deg);
+}
+
+.countdownCube_ID_11 .countdownCubeCube.show-bottom {
+    -webkit-transform: translateZ( -75px) rotateX( 90deg);
+    -moz-transform: translateZ( -75px) rotateX( 90deg);
+    -o-transform: translateZ( -75px) rotateX( 90deg);
+    transform: translateZ( -75px) rotateX( 90deg);
+}
+
+.counter {
+    margin: 10 auto;
+    text-align: center;
+}
+
+.time {
+    height: 150px;
+    width: 150px;
+    perspective: 750px;
+}
+
+.figure_0 {
+    margin: 0px;
+    height: 146px;
+    width: 146px;
+    line-height: 146px;
+    font-size: 64px;
+    background: lightcyan;
+    color: darkcyan;
+    transform: translateZ(75px);
+}
+
+.figure_X-180 {
+    margin: 0px;
+    height: 146px;
+    width: 146px;
+    line-height: 146px;
+    font-size: 64px;
+    background: lightcyan;
+    color: darkcyan;
+    transform: rotateX(-180deg) translateZ(75px);
+}
+
+.figure_Y90 {
+    margin: 0px;
+    height: 146px;
+    width: 146px;
+    line-height: 146px;
+    font-size: 64px;
+    background: lightcyan;
+    color: darkcyan;
+    transform: rotateY(90deg) translateZ(75px);
+}
+
+.figure_Y-90 {
+    margin: 0px;
+    height: 146px;
+    width: 146px;
+    line-height: 146px;
+    font-size: 64px;
+    background: lightcyan;
+    color: darkcyan;
+    transform: rotateY(-90deg) translateZ(75px);
+    ;
+}
+
+.figure_X-90 {
+    margin: 0px;
+    height: 146px;
+    width: 146px;
+    line-height: 146px;
+    font-size: 64px;
+    background: lightcyan;
+    color: darkcyan;
+    transform: rotateX(-90deg) translateZ(75px);
+    ;
+}
+
+.figure_X90 {
+    margin: 0px;
+    height: 146px;
+    width: 146px;
+    line-height: 146px;
+    font-size: 64px;
+    background: lightcyan;
+    color: darkcyan;
+    transform: rotateX(90deg) translateZ(75px);
+    ;
+}
+
+.cube {
+    margin-top: 150px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 32px;
+}
