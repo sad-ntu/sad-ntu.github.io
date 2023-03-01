@@ -1,6 +1,5 @@
 var infoBCN = [
-    {name: "Huỳnh Quốc Bảo", chucVu: "Chủ nhiệm", cnyt: "Lợi ích tốt nhất/ncủa bản thân là lợi ích không dành cho bản thân.", avt: '1.jpg'},
-    {name: "Phạm Ngọc Tuấn", chucVu: "Trưởng nhóm diễn thuyết", cnyt: "Tôi là nhất", ban: "Nội dung", avt: '2.jpg'},
+    {name: "Huỳnh Quốc Bảo", chucVu: " Cựu chủ nhiệm", cnyt: "Lợi ích tốt nhất của bản thân là lợi ích không dành cho bản thân.", avt: '1.jpg'},
     {name: "Dương Mai Xuân Lan", chucVu: "Phó Chủ nhiệm", cnyt: "Đừng bao giờ hối tiếc những điều xảy ra trong quá khứ, vì thời điểm ấy, đó chính xác là những gì bạn muốn", avt: 'xuanlan.jpg'},
     {name: "Phạm Minh Tín", chucVu: "Chủ nhiệm", cnyt: "bgf", avt: 'lan.jpg'},
 ]
