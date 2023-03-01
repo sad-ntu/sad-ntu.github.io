@@ -2,9 +2,9 @@ var tintucCLB = {
     tieuDeNho: 'Giáo dục',
     tieuDeLon: 'TẠI SAO 1 BỘ PHẬN HIỆN NAY CHO RẰNG LỊCH SỬ KHÔNG CÒN QUAN TRỌNG?',
     noiDung: '12 năm đèn sách, học rồi chỉ để quên...<br>LỊCH SỬ... Những tập đề cương dài miên man, những cuốn tập dày đặc chữ, những ngày học bài mệt mỏi. Những kỷ niệm thật đáng nhớ của thời học sinh, nhưng còn nội dung thì có lẽ ai cũng quên sạch rồi.<br>Tại sao phải học SỬ? <br>Đơn giản mà,  "Dân ta phải biết sử ta<br>Cho tường gốc tích nước nhà Việt Nam..."<br>BIẾT chứ không phải HIỂU.<br>...<br>Có lẽ đã đến lúc để LỊCH SỬ trở thành một môn học mà chúng ta có thể lựa chọn và yêu thích. Chứ không phải bắt buộc một cách thờ ơ.',
-    link: 'https://www.facebook.com/clbdienthuyetvatranhbien.ntu',
-    thoiGian: '12:00 Ngày 12/02/2021',
-    diaDiem: 'CLB Sinh viên',
+    link: 'https://fb.watch/i_WfMR6mrK/',
+    thoiGian: '19:00 Ngày 22/03/2022',
+    diaDiem: 'phòng sinh hoạt CLB Sinh viên',
     anhLon: 'featured-img1.jpg',  // viết đúng theo format tên tệp.đuôi tệp  Nếu không có ảnh hãy để trống ''
     anhNho: 'featured-img2.jpg',  // lưu ý ảnh 1 và 2 sẽ được lưu ở thư mục: assets/images/
 }
@@ -15,7 +15,7 @@ var tintucCLB2 = {
     noiDung: '"Nhà mình không bao giờ quét, ăn xong không rửa bát... mà sao chăm chỉ tình nguyện trồng cây cuốc đất cho thiên hạ"<br>Chắc chẳng ai còn lạ cảnh gặp hằng hà sa số sinh viên kéo nhau tình nguyện, cũng đã nghe tràn lan những khẩu hiệu bắt tai. <br>Đi tình nguyện để giúp đời, đi tình nguyện để đóng góp cho xã hội, may mắn làm sao khi lớp trẻ vừa giỏi kiến thức vừa nhiệt huyết cống hiến. Nhưng liệu thực tế có màu hồng như vậy?<br>Đóng góp cho xã hội, hay ham vui chỉ lo việc thiên hạ. Trong khi gia đình còn chu cấp  từng miếng ăn nhưng lại đi lo cơm ăn áo mặc cho người khác?<br>Cống hiến cho đời hay lãng phí những thời gian quí báu để tích lũy kiến thức, để rồi trở thành những con người vô dụng?<br>Vâng, có lẽ đã đến lúc nên lo cho tốt cái thân mình, rồi hẵng tính xa xôi!',
     link: 'https://www.facebook.com/clbdienthuyetvatranhbien.ntu',
     thoiGian: '12:00 Ngày 12/02/2021',
-    diaDiem: 'CLB Sinh viên',
+    diaDiem: 'phòng sinh hoạt CLB Sinh viên',
     anhLon: 'new21.jpeg',  // viết đúng theo format tên tệp.đuôi tệp  Nếu không có ảnh hãy để trống ''
     anhNho1: 'new22.jpeg',  // lưu ý ảnh 1 và 2 sẽ được lưu ở thư mục: assets/images/
     anhNho2: 'new233.jpeg',
@@ -24,12 +24,15 @@ var tintucCLB2 = {
 var truyenCamHungs = [
     {name: 'Huỳnh Quốc Bảo', chucVu: 'Cựu Chủ nhiệm', avt: 'test1.png', noiDung: 'Bởi người hoạ sĩ muốn vẽ phong cảnh phải đứng dưới đồng bằng mới nhìn thấy rõ núi non cao vời và phải đứng trên núi cao mới nhìn bao quát được đồng bằng phía dưới. Cho nên phải là vua mới hiểu được thực chất của dân chúng và phải là dân chúng mới hiểu được vua'},
     {name: 'Phạm Ngọc Tuấn', chucVu: 'Trưởng nhóm Diễn thuyết', avt: 'test2.png', noiDung: 'Tuấn là 1 người không thích rửa chén'},
+    {name: 'Dương Mai Xuân Lan', chucVu: 'Phó chủ nhiệm', avt: 'duongmaixuanlan.jpeg', noiDung: 'abc xyz...'},
     {name: 'Thái Thành Luân', chucVu: 'Trưởng nhóm Tranh biện', avt: 'test3.png', noiDung: 'Một con sư tử thì không cần quan tâm đến quan điểm của con cừu'},
 ]
 
 var highLight = [
-    {tieuDe: 'Thay khung ảnh đại diện', anh: '1235.png', link: '', time: 'hhh'},
-    {tieuDe: 'Tôi là giảng viên<br>Hãy hỏi tôi', anh: 'poster_20-11.jpg', link: '', time: 'aaa'},
+    {tieuDe: 'Thay khung ảnh đại diện', anh: '1235.png', link: '#', time: '21/02/2023'},
+    {tieuDe: 'Tôi là giảng viên<br>Hãy hỏi tôi', anh: 'poster_20-11.jpg', link: '#', time: 'sự kiện đặc biệt'},
+    {tieuDe: 'Tôi là giảng viên<br>Hãy hỏi tôi', anh: 'poster_20-11.jpg', link: '#', time: 'sự kiện đặc biệt'},
+    {tieuDe: 'Thay khung ảnh đại diện', anh: '1235.png', link: '#', time: '21/02/2023'},
 ]
 
 
