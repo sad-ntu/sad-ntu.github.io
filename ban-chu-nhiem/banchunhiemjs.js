@@ -16,7 +16,7 @@ for(var i =0; i < infoBCN.length; i ++) {
     body = body + `<div class="u-align-center-xs u-container-style u-list-item u-repeater-item">
     <div
         class="u-container-layout u-similar-container u-valign-bottom-lg u-valign-bottom-md u-valign-bottom-xl u-valign-top-sm u-valign-top-xs u-container-layout-3">
-        <div alt="" style="background-image: url('Img Bcn/${infoBCN[i].avt}');" class="u-border-7 u-border-white u-image u-image-circle u-image-1"
+        <div alt="" style="background-image: url('../assets/images/${infoBCN[i].avt}');" class="u-border-7 u-border-white u-image u-image-circle u-image-1"
             data-image-width="799" data-image-height="1080"></div>
         <div class="u-align-left u-container-style u-group u-group-1">
             <div
