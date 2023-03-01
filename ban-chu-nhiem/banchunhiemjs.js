@@ -1,10 +1,7 @@
 var infoBCN = [
     {name: "Huỳnh Quốc Bảo", chucVu: "Chủ nhiệm", cnyt: "Lợi ích tốt nhất/ncủa bản thân là lợi ích không dành cho bản thân.", avt: '1.jpg'},
     {name: "Phạm Ngọc Tuấn", chucVu: "Trưởng nhóm diễn thuyết", cnyt: "Tôi là nhất", ban: "Nội dung", avt: '2.jpg'},
-    {name: "Thái Thành Luân", chucVu: "Trưởng nhóm tranh biện", cnyt: "Quyết định tốt nhất không phải được tạo nên bởi lý trí, mà là bởi bản năng của bạn", ban: "Nội dung", avt: '3.jpg'},
-    {name: "Huỳnh Quốc Bảo", chucVu: "Chủ nhiệm", cnyt: "Lợi ích tốt nhất/ncủa bản thân là lợi ích không dành cho bản thân.", avt: '4.jpg'},
-    {name: "Phạm Ngọc Tuấn", chucVu: "Trưởng nhóm diễn thuyết", cnyt: "Tôi là nhất", ban: "Nội dung", avt: '5.jpeg'},
-    {name: "Thái Thành Luân", chucVu: "Trưởng nhóm tranh biện", cnyt: "Quyết định tốt nhất không phải được tạo nên bởi lý trí, mà là bởi bản năng của bạn", ban: "Nội dung", avt: '6.jpeg'},
+    {name: "Dương Mai Xuân Lan", chucVu: "Phó Chủ nhiệm", cnyt: "abc xyz", avt: 'duongmaixuanlan.jpeg'},
 ]
 
 
