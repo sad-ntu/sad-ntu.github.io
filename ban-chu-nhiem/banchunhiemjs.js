@@ -2,6 +2,7 @@ var infoBCN = [
     {name: "Huỳnh Quốc Bảo", chucVu: "Chủ nhiệm", cnyt: "Lợi ích tốt nhất/ncủa bản thân là lợi ích không dành cho bản thân.", avt: '1.jpg'},
     {name: "Phạm Ngọc Tuấn", chucVu: "Trưởng nhóm diễn thuyết", cnyt: "Tôi là nhất", ban: "Nội dung", avt: '2.jpg'},
     {name: "Dương Mai Xuân Lan", chucVu: "Phó Chủ nhiệm", cnyt: "abc xyz", avt: 'duongmaixuanlan.jpeg'},
+    {name: "Phạm Minh Tín", chucVu: "Chủ nhiệm", cnyt: "bgf", avt: 'lan.jpg'},
 ]
 
 
